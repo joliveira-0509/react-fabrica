@@ -13,18 +13,18 @@ section.slider {
     overflow: hidden;
 }
 
-.slider-content {
+.slider_content {
     width: 400%;
     height: auto;
     display: flex;
 
 }
 
-.slider-content input {
+.slider_content input {
     display: none;
 }
 
-.slide-box {
+.slide_box {
     width: 25%;
     height: auto;
     position: relative;
@@ -33,13 +33,13 @@ section.slider {
     transition: transform 10s ease;
 }
 
-.slide-box img {
+.slide_box img {
     border-radius: 10px;
     width: 65%;
     max-height: 250px;
 }
 
-.nav-manual, .nav-auto {
+.nav_manual, .nav_auto {
     position: absolute;
     width: 100%;
     margin-top: 19%;
@@ -47,7 +47,7 @@ section.slider {
     justify-content: center;
 }
 
-.nav-manual .manual-btn, .nav-auto div{
+.nav_manual .manual_btn, .nav_auto div{
     width: 30px;
     height: 1px;
     border: 1px solid #fff;
@@ -57,26 +57,26 @@ section.slider {
     border-radius: 2px;
 }
 
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child) {
+.nav_manual .manual_btn:not(:last-child), .nav_auto div:not(:last-child) {
     margin-right: 10px;
 }
 
-.nav-manual .manual-btn:hover{
+.nav_manual .manual_btn:hover{
     background-color: #fff;
 }
 
 /* posso simplificar linha
  */
 
-#radio1:checked ~ .nav-auto .auto-btn1{
+#radio1:checked ~ .nav_auto .auto_btn1{
     background-color: #fff;
 }
 
-#radio2:checked ~ .nav-auto .auto-btn2{
+#radio2:checked ~ .nav_auto .auto_btn2{
     background-color: #fff;
 }
 
-#radio3:checked ~ .nav-auto .auto-btn3{
+#radio3:checked ~ .nav_auto .auto_btn3{
     background-color: #fff;
 }
 
@@ -94,7 +94,7 @@ section.slider {
 
 @media  screen and (max-width: 900px) {
 
-    .nav-auto ,.nav-manual{
+    .nav_auto ,.nav_manual{
         margin-top: 60%
     }
     
