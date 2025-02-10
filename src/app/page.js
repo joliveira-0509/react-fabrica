@@ -6,6 +6,9 @@ import slide from './slider.module.css';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import Image from 'next/image';
+
+
 export default function Home() {
 
   const data = [
@@ -37,7 +40,7 @@ export default function Home() {
 
       <div className={style.div_box}>
         <a className={style.cartao} href="eventos.html">
-          {/* <img src={img} alt /> */}
+          {/* <Image src='/img/img.jpg' alt='imagem figurativa' /> */}
           <h1>Eventos</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
             labore et
@@ -56,7 +59,7 @@ export default function Home() {
             dolore magna aliqua</h2>
         </a>
         <a className={style.cartao} href="outro.html">
-         {/*  <img src="img/img.jpg" alt /> */}
+          {/*  <img src="img/img.jpg" alt /> */}
           <h1>Outros meios</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua</h2>
