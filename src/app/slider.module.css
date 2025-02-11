@@ -1,5 +1,11 @@
+.conteiner{
+    width:100%;
+    max-width: 940px;
+}
+
 .slide_item {
+    margin-top: 20px;
     width: 100%;
-    height: 350px;
+    height: 1050px;
     object-fit: cover;
 }
