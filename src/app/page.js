@@ -28,22 +28,26 @@ export default function Home() {
 
   return (
     <div className={styles.body}>
-      <div className={style.conteiner}>
-        <Swiper
-          slidesPerView={1}
-          pagination={{ clickable: true }}
-          navigation
-        >
-          {data.map((item) => (
-            <SwiperSlide key={item.id}>
-              <img
-                src={item.image}
-                alt='Slider'
-                className={slide.slide_item}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+
+      <div className={style.divslides}>
+
+        <div className={slide.conteiner}>
+          <Swiper
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            navigation
+          >
+            {data.map((item) => (
+              <SwiperSlide key={item.id}>
+                <img
+                  src={item.image}
+                  alt='Slider'
+                  className={slide.slide_item}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
 
       <div className={style.div_box}>
