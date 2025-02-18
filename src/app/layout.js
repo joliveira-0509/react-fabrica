@@ -1,12 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+"use client"
 import "./globals.css";
-import Header from "@/modules/Header/header.js";
+import Header from "@/components/header/Header.js";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pr-br">
       <body >
-        {/* <Header /> */}
+        <Header />
         {children}
       </body>
     </html>
