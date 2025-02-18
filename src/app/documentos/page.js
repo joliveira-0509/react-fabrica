@@ -12,11 +12,11 @@ export default function Documents() {
                     <h1>BUSQUE PELA SUA DOCUMENTAÇÃO</h1>
                     <div className={styles['search-container']}>
                         <input type="text" className={styles['search-input']} placeholder="Buscar" aria-label="Buscar" />
-                        <button type="submit" className={styles.search-icon}>
+                        <button type="submit" className={styles['search-icon']}>
                         <Search size={12}  />
                         </button>
                     </div>
-                    <a href="#">
+                    <a className={styles.butao}>
                         <button type="submit">Cadastrar Documentação</button>
                     </a>
                 </div>

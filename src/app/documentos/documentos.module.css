@@ -54,7 +54,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.368);
 }
 
-.busca a {
+.busca .butao {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -67,7 +67,7 @@
     box-shadow: 0 4px 10px #0000004d;
 }
 
-.busca a>button {
+.busca .butao >button {
     width: 100%;
     text-decoration: none;
     border-color: #06060600;
